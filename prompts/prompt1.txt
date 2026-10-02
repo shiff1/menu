@@ -1,0 +1,22 @@
+ROL: Actúa como un desarrollador web experto en HTML y CSS.
+
+TAREA: Necesito crear una página web para mostrar mis proyectos de juegos desarrollados durante un curso. La página debe incluir:
+
+1. Un título principal con el nombre "Mis Proyectos".
+2. El nombre del autor junto con un nickname.
+3. El nombre del curso y una breve descripción de los proyectos.
+4. Dos hipervínculos que lleven a mis proyectos desplegados en Vercel:
+   - Juego de Limones: https://juegolimones-eight.vercel.app/
+   - Juego Cazando: https://juegoscazando-bp3x.vercel.app/
+5. Un diseño visual moderno y atractivo, con:
+   - Un fondo con degradado de colores (morado/azul).
+   - Tarjetas para cada proyecto con efecto hover.
+   - Emojis para hacerla más amigable.
+   - Diseño responsive que se adapte a móviles y computadoras.
+6. Mantener el enlace "IR A GOOGLE" que ya existía en la página.
+---
+
+PROMPT 2 (cambio solicitado):
+ROL: Actúa como desarrollador web experto en HTML y CSS.
+
+TAREA: Actualiza la página para incluir la URL real del proyecto "Juego Cazando" que es https://juegoscazando-bp3x.vercel.app/ y mejora el diseño visual con tarjetas interactivas para cada proyecto.

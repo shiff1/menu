@@ -1,8 +1,129 @@
 <!DOCTYPE html>
-<html>
-    <body>
-        <a href="http://www.google.com">IR A GOOGLE</a>
-        <a href="https://juegolimones-eight.vercel.app/">JUEGO LIMONES</a>
-        <a href="https://juegoscazando-bp3x.vercel.app/">JUEGO CAZANDO</a>
-    </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Proyectos - Juegos</title>
+  <style>
+    * {
+      margin:  ​0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 800px;
+      width: 100%;
+      padding: 40px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      font-size: 2.5em;
+      margin-bottom:  ​5px;
+    }
+
+    .author {
+      color: #666;
+      font-size:  ​1.1em;
+      margin-bottom:  ​5px;
+    }
+
+    .course {
+      color: #764ba2;
+      font-weight: bold;
+      font-size:  ​1.2em;
+      margin-bottom:  ​20px;
+    }
+
+    .description {
+      color: #555;
+      line-height:  ​1.6;
+      margin-bottom:  ​30px;
+      padding: 0 20px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap:  ​15px;
+      margin-bottom:  ​30px;
+    }
+
+    .project-card {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      text-decoration: none;
+      display: block;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    }
+
+    .project-card h3 {
+      color: #333;
+      margin-bottom:  ​5px;
+    }
+
+    .project-card p {
+      color: #777;
+      font-size:  ​0.9em;
+    }
+
+    .google-link {
+      color: #4285f4;
+      text-decoration: none;
+      font-size:  ​0.9em;
+      margin-top:  ​10px;
+      display: inline-block;
+    }
+
+    .google-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎮 Mis Proyectos</h1>
+    <p class="Autor">Autor:shirley</p>
+    <p class="Curso">Curso: Aplicaciones de la IA</p>
+    <p class="descripcion">
+      Estos son mis proyectos desarrollados durante el curso. Incluyen juegos interactivos
+      que demuestran habilidades de programación, lógica y diseño de interfaces.
+    </p>
+
+    <div class="links">
+      <a href="https://juegolimones-eight.vercel.app/" class="project-card" target="_blank">
+        <h3>🍋 Juego de Limones</h3>
+        <p>Haz clic para jugar</p>
+      </a>
+      <a href="https://juegoscazando-bp3x.vercel.app/" class="project-card" target="_blank">
+        <h3>🎯 Juego Cazando</h3>
+        <p>Haz clic para jugar</p>
+      </a>
+    </div>
+
+    <a href="http://www.google.com" class="google-link" target="_blank">Ir a Google</a>
+  </div>
+</body>
 </html>
+
